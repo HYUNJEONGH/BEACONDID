@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="card_type">
+        <item>국민은행</item>
+        <item>신한은행</item>
+        <item>하나은행</item>
+        <item>기업은행</item>
+        <item>우리은행</item>
+    </string-array>
+</resources>

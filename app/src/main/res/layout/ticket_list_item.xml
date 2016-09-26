@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="88dp" android:orientation="vertical"
+    android:paddingTop="8dp">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/tvBookId"
+        android:visibility="gone" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ticket ID"
+        android:id="@+id/tvTId"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:textColor="#ff2f2f" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Ticket Name"
+        android:id="@+id/tvTicketName"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:textColor="#040404" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Ticket day"
+        android:id="@+id/tvTicketD"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:textColor="#757575" />
+</LinearLayout>

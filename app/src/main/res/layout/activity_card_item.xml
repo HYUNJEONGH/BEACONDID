@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_marginTop="6dp"
+    android:layout_marginBottom="6dp">
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:text="cardname"
+        android:textColor="@color/colorAccent"
+        android:layout_gravity="center"
+        android:id="@+id/tvCardName" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:layout_gravity="center"
+        android:textColor="@color/colorAccent"
+        android:text="cardNum"
+        android:id="@+id/tvCardNum" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_gravity="center"
+        android:textColor="@color/colorAccent"
+        android:text="cardtype"
+        android:id="@+id/tvCardType" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:gravity="center|right"
+        android:layout_weight="1">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginRight="6dp"
+        android:background="@color/bb_darkBackgroundColor"
+        android:textColor="@color/white"
+        android:onClick="onClick"
+        android:text="등록 해지"
+        android:id="@+id/btn_delete_card" />
+    </LinearLayout>
+
+</LinearLayout>

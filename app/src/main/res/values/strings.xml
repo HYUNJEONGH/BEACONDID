@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">BeaconDID</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign up</string>
+    <string name="title_activity_login">Login</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_userid">This UserID is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="user_id">User ID</string>
+
+    <!-- Strings related to signup -->
+    <string name="signup_complete">Sign up Complete!</string>
+
+    <string name="signup_idDuplicated">이미 존재하는 아이디입니다!</string>
+
+    <!-- Strings related to settings -->
+    <string name="setting">Settings</string>
+    <!-- Strings related to tickets -->
+    <string name="noTData">예악한 티켓 정보가 없습니다!</string>
+    <string name="noCData">카트가 비었습니다!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="my_seat_find">내 좌석 찾기</string>
+    <string name="failed_get_item">정보를 가져올수 없습니다.</string>
+    <string name="addCart">담기</string>
+    <string name="order">주문하기</string>
+    <!--Strings related to card-->
+    <string name="add_card_success">카드가 등록되었습니다.</string>
+    <string name="delete_card_check">카드를 등록해지 하시겠습니까?</string>
+    <string name="add_card_ok">확인</string>
+    <string name="delete_card_cancle">취소</string>
+    <string name="checkpass">결제비밀번호를 입력해주세요.</string>
+    <string name="noRegion">올바른 지역이 아닙니다.</string>
+    <string name="input_passwd">올바른 비밀번호를 입력해주세요.</string>
+    <string name="order_complete">주문완료 되었습니다.</string>
+</resources>

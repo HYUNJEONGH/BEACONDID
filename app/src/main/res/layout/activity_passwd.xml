@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.example.yunjeong.project1.PasswdActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/checkpass"
+        android:id="@+id/textView3"
+        android:layout_gravity="center_horizontal" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <EditText
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/passwdshape"
+            android:inputType="textPassword"
+            android:maxLength="1"
+            android:textAlignment="center"
+            android:id="@+id/pwd1" />
+        <EditText
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/passwdshape"
+            android:inputType="textPassword"
+            android:maxLength="1"
+            android:textAlignment="center"
+            android:id="@+id/pwd2" />
+        <EditText
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/passwdshape"
+            android:inputType="textPassword"
+            android:maxLength="1"
+            android:textAlignment="center"
+            android:id="@+id/pwd3" />
+        <EditText
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/passwdshape"
+            android:inputType="textPassword"
+            android:maxLength="1"
+            android:textAlignment="center"
+            android:id="@+id/pwd4" />
+        <EditText
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/passwdshape"
+            android:inputType="textPassword"
+            android:maxLength="1"
+            android:textAlignment="center"
+            android:id="@+id/pwd5" />
+        <EditText
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/passwdshape"
+            android:inputType="textPassword"
+            android:maxLength="1"
+            android:textAlignment="center"
+            android:id="@+id/pwd6" />
+        <EditText
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/passwdshape"
+            android:inputType="textPassword"
+            android:maxLength="1"
+            android:textAlignment="center"
+            android:id="@+id/pwd7" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <EditText
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/passwdshape"
+            android:inputType="textPassword"
+            android:maxLength="1"
+            android:textAlignment="center"
+            android:id="@+id/pwd8" />
+        <EditText
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/passwdshape"
+            android:inputType="textPassword"
+            android:maxLength="1"
+            android:textAlignment="center"
+            android:id="@+id/pwd9" />
+        <EditText
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/passwdshape"
+            android:inputType="textPassword"
+            android:maxLength="1"
+            android:textAlignment="center"
+            android:id="@+id/pwd10" />
+        <EditText
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/passwdshape"
+            android:inputType="textPassword"
+            android:maxLength="1"
+            android:textAlignment="center"
+            android:id="@+id/pwd11" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center|bottom">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnPassCheck"
+            android:background="@color/bb_darkBackgroundColor"
+            android:textColor="@color/white"
+            android:onClick="onClick"
+            android:textSize="20dp"
+            android:text="확인"/>
+    </LinearLayout>
+</LinearLayout>

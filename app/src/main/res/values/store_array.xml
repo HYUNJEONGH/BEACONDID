@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="store_array">
+        <item>음식점 선택</item>
+        <item>전체</item>
+        <item>오비맥주</item>
+        <item>카스맥주</item>
+        <item>맥스맥주</item>
+        <item>하이트맥주</item>
+        <item>삼겹살</item>
+        <item>BBQ</item>
+        <item>BHC</item>
+        <item>KFC</item>
+        <item>미스터피자</item>
+    </string-array>
+</resources>
